@@ -1,0 +1,13 @@
+*{margin: 0px;padding: 0px;box-sizing: border-box;outline: none;text-decoration: none;list-style: none;}
+body{min-height:100vh;background-image: linear-gradient(-135deg, #842367,#b93a93,#ffb540,#ffe141);font-family: Arial, Helvetica, sans-serif;}
+body section{position: fixed;top: 50%;left: 50%;transform: translate(-50%,-50%);}
+body section .form{background-color: #fff;padding:50px 30px;border-radius: 15px;width: 350px;border: 3px solid rgb(75, 75, 75);}
+body section .form h1{border-left: 5px solid #b93a93;padding-left: 5px;font-size: 1.6em;}
+body section .form .inp{position: relative;display: flex;align-items: center;margin-top: 45px;}
+body section .form .inp input{width: 100%;font-size: 18px;padding: 10px;}
+body section .form .inp span{position: absolute;transform: translateX(10px);color: grey;font-size: 18px;pointer-events: none;background-color: #fff;}
+body section .form .inp_password input{padding-right: 52px;}
+body section .form .inp_password a{position: absolute; right: 15px; color: #000;width: 20px;color: transparent;}
+body section .form .inp_password .show{z-index: 2;display: none;}
+body section .form .inp_password .hidden{z-index: 1;pointer-events: none;}
+body section .form .btn{background: rgb(0, 174, 255);color: #fff;padding: 7px;border-radius: 5px;border: 1px solid grey;margin-top: 45px;font-size: 17px;cursor: pointer;}
